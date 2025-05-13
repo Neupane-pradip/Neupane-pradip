@@ -1,81 +1,69 @@
 <h1 align="center">Hi, I'm Pradip Neupane 👋</h1>
 <p align="center">
-  Software Developer | Data Science Enthusiast | Git & Python Lover
+  Software Developer | Computing Science Student | Lifelong Learner
 </p>
 
 ---
-
-🌏 Based in Finland | Originally from Nepal 🇳🇵 | Open to international opportunities (especially Australia 🇦🇺)
 
 ## 👨‍💻 About Me
 
-- 🎓 Final-year Bachelor's student in **Software Development & Electrical Engineering**, minoring in **Mathematics**
-- 📊 Working on a thesis: *"Email Spam Detection using Naive Bayes Classifier"*
-- ⚡ Passionate about:
-  - Writing clean, modular code
-  - Building intelligent systems
-  - Exploring machine learning and automation
-- 🧠 Skilled in:
-  - Python, C++, JavaScript, Node.js
-  - NumPy, pandas, scikit-learn
-  - Git, GitHub workflows
-  - Express, MongoDB, EJS
-  - Basic MATLAB and numerical computing
+- 🎓 Bachelor’s student in **Computing Science and Electrical Engineering**  
+  - 🎯 **Major**: Software Development  
+  - 📐 **Minor**: Mathematics
+- 🧪 Current thesis:  
+  *“Implementing a New Method for Regional Explanations in the Effector Python Library”*
+- 🔍 Interested in:
+  - Machine learning explainability
+  - Python ecosystems for data analysis
+  - Optimization and numerical computation
+- ⚡ I enjoy combining theory with practical tools to solve real-world problems.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Skills & Tools
 
-- 💻 Languages: `Python`, `C++`, `JavaScript`, `SQL`
-- 🧠 ML Tools: `scikit-learn`, `Effector`, `NumPy`, `pandas`, `matplotlib`
-- 🔌 Backend: `Node.js`, `Express`, `MongoDB`
-- 🌐 Frontend: `HTML`, `CSS`, `EJS`, `Tailwind CSS`
-- 🔧 Tools: `Git`, `GitHub`, `Jupyter`, `VS Code`, `Linux`, `Bash`
-
----
-
-## 🔍 Projects & Highlights
-
-Here are a few public repositories and academic projects I've worked on:
-
-- 📩 **Naive Bayes Email Spam Filter** – [Coming Soon!]
-  - Implements Bayesian classification from scratch
-  - Part of my bachelor’s thesis research
-
-- 🧪 **Effector Library Extension**
-  - Added regional explanation support for PDPs
-  - Includes visualization and benchmarking
-  - [Private Repo: Ask me for details]
-
-- 🧠 **Numerical Analysis Portfolio**
-  - Includes interpolation, optimization, and ODE solving in MATLAB and Python
-  - Applied in context of renewable energy modeling
-
-- 🌐 **Express.js Web App**
-  - User authentication, session management, and PRG pattern
-  - Tested using Mocha + Chai
-  - Styled with Tailwind
-
-- 🔀 **C++ STL & Optimization Exercises**
-  - Custom functions optimized for instruction count
-  - Projects involving vector sorting and memory efficiency
+- **Languages**: Python, C++, JavaScript, SQL  
+- **Libraries & Frameworks**: NumPy, pandas, scikit-learn, matplotlib, Effector  
+- **Web**: Node.js, Express, MongoDB, EJS, Tailwind CSS  
+- **Other Tools**: Git, GitHub, Jupyter, Linux, Bash, MATLAB
 
 ---
 
-## 📈 GitHub Stats
+## 📂 Projects & Highlights
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Neupane-pradip&show_icons=true&theme=default" alt="Pradip's GitHub stats"/>
-</p>
+- 🧠 **Effector Library Enhancement**
+  - Developed a new method for regional explanations in PDP visualizations
+  - Benchmarked and tested using synthetic and real-world datasets
+  - [In Progress – Thesis Work]
+
+- 🔢 **Numerical Analysis Portfolio**
+  - MATLAB and Python scripts solving interpolation, root-finding, ODEs
+  - Applied to engineering problems and simulation scenarios
+
+- 🌐 **Node.js Web Application**
+  - Authentication system using Express.js, sessions, and EJS templates
+  - Test-driven using Mocha and Chai; styled with Tailwind CSS
+
+- 🧮 **C++ Optimization Practice**
+  - Custom vector functions designed for memory and instruction efficiency
+  - Hands-on practice with STL and algorithm tuning
 
 ---
 
-## 🌍 Let's Connect
+## 📚 Currently Learning
 
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile) *(Add your real link here)*
-- 📫 Email: your.email@example.com *(Replace with your contact)*
-- 📁 Portfolio Website: Coming soon
+- Interpretable ML methods  
+- Model compression techniques  
+- Scientific computing with Python  
+- GitHub Actions for automation
 
 ---
 
-*“Keep learning. Keep building. Keep growing.”*
+## 🤝 Connect With Me
+
+- 📫 Email: pradip.neupane@tuni.fi 
+- 🌐 Portfolio: [Coming soon – under development]
+
+---
+
+*“Precision in theory. Clarity in code.”*
