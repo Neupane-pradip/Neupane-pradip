@@ -62,8 +62,6 @@
 ## 🤝 Connect With Me
 
 - 📫 Email: pradip.neupane@tuni.fi 
-- 🌐 Portfolio: [Coming soon – under development]
-
 ---
 
 *“Precision in theory. Clarity in code.”*
