@@ -37,7 +37,7 @@
 ## Education (current)
 
 **Master’s Degree in Data Science** — *in progress (1st semester)*  
-Expected graduation: **TBD**
+Expected graduation: 12/2027
 
 **Bachelor’s Degree in Computing Science and Electrical Engineering** — *completed*  
 Major: Software Development • Minor: Mathematics
