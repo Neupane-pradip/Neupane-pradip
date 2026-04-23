@@ -1,67 +1,49 @@
-<h1 align="center">Hi, I'm Pradip Neupane 👋</h1>
+<h1 align="center">Hi, I'm Pradip Neupane</h1>
 <p align="center">
-  Software Developer | Computing Science Student | Lifelong Learner
+  Data Science (MSc) student • Software Developer • Lifelong Learner
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-- 🎓 Bachelor’s student in **Computing Science and Electrical Engineering**  
-  - 🎯 **Major**: Software Development  
-  - 📐 **Minor**: Mathematics
-- 🧪 Current thesis:  
-  *“Implementing a New Method for Regional Explanations in the Effector Python Library”*
-- 🔍 Interested in:
-  - Machine learning explainability
-  - Python ecosystems for data analysis
-  - Optimization and numerical computation
-- ⚡ I enjoy combining theory with practical tools to solve real-world problems.
+- 🎓 **MSc in Data Science** (1st semester, in progress)
+- 🎓 **BSc in Computing Science & Electrical Engineering**
+  - Major: Software Development • Minor: Mathematics
+- 🔎 Interests: machine learning, interpretable/Explainable AI, data analysis with Python, and practical software engineering
 
 ---
 
-## 🛠️ Skills & Tools
+## Featured projects
 
-- **Languages**: Python, C++, JavaScript, SQL  
-- **Libraries & Frameworks**: NumPy, pandas, scikit-learn, matplotlib, Effector  
-- **Web**: Node.js, Express, MongoDB, EJS, Tailwind CSS  
-- **Other Tools**: Git, GitHub, Jupyter, Linux, Bash, MATLAB
+- **Titanic Survival Prediction (ML workflow)**
+  - End-to-end pipeline: preprocessing → training (LogReg / RandomForest / GradientBoosting) → evaluation & plots
+  - Repo: https://github.com/Neupane-pradip/-Titanic-Survival-Prediction
 
----
-
-## 📂 Projects & Highlights
-
-- 🧠 **Effector Library Enhancement**
-  - Developed a new method for regional explanations in PDP visualizations
-  - Benchmarked and tested using synthetic and real-world datasets
-  - [In Progress – Thesis Work]
-
-- 🔢 **Numerical Analysis Portfolio**
-  - MATLAB and Python scripts solving interpolation, root-finding, ODEs
-  - Applied to engineering problems and simulation scenarios
-
-- 🌐 **Node.js Web Application**
-  - Authentication system using Express.js, sessions, and EJS templates
-  - Test-driven using Mocha and Chai; styled with Tailwind CSS
-
-- 🧮 **C++ Optimization Practice**
-  - Custom vector functions designed for memory and instruction efficiency
-  - Hands-on practice with STL and algorithm tuning
+- **Weather App (Java / JavaFX project repo)**
+  - Repo: https://github.com/Neupane-pradip/Weather-app
 
 ---
 
-## 📚 Currently Learning
+## Tech stack
 
-- Interpretable ML methods  
-- Model compression techniques  
-- Scientific computing with Python  
-- GitHub Actions for automation
+- **Languages**: Python, Java, C/C++, JavaScript, SQL
+- **ML/Data**: NumPy, pandas, scikit-learn, matplotlib, Jupyter
+- **Web**: Node.js, Express, MongoDB, EJS
+- **Tools**: Git/GitHub, Linux, Bash
 
 ---
 
-## 🤝 Connect With Me
+## Education (current)
 
-- 📫 Email: pradip.neupane@tuni.fi 
+**Master’s Degree in Data Science** — *in progress (1st semester)*  
+Expected graduation: **TBD**
+
+**Bachelor’s Degree in Computing Science and Electrical Engineering** — *completed*  
+Major: Software Development • Minor: Mathematics
+
 ---
 
-*“Precision in theory. Clarity in code.”*
+## Contact
+
+- Email: pradip.neupane@tuni.fi
