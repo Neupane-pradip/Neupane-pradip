@@ -11,7 +11,7 @@
 
 ## About me
 
-I'm a Data Science master's student with a background in software development and mathematics, building toward a career in data engineering.
+I'm an MSc Data Science student at Tampere University, with my first semester completed and a background in software development and mathematics. I'm targeting data engineering internships and junior data engineer roles.
 
 I learn by building complete projects: extracting data from APIs, designing SQL tables, validating records, handling failures, and making the results useful through analytics. My repositories document both the implementation and what I learn along the way.
 
@@ -72,7 +72,8 @@ A machine learning project covering preprocessing, model comparison, evaluation,
 
 ## Education
 
-**MSc in Data Science** — in progress · Expected graduation: December 2027
+**MSc in Data Science, Tampere University** — in progress · First semester completed  
+Expected graduation: December 2027
 
 **BSc in Computing Science and Electrical Engineering** — completed  
 Major: Software Development · Minor: Mathematics
