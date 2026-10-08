@@ -1,85 +1,92 @@
-<h1 align="center">Pradip Neupane</h1>
-<p align="center"><strong>Building data pipelines that turn APIs into useful analytics</strong></p>
-<p align="center">MSc Data Science student · Python & SQL · Data engineering portfolio</p>
+<h1 align="center">Hi, I'm Pradip Neupane 👋</h1>
+<p align="center"><strong>Turning API data into reliable pipelines and useful analytics.</strong></p>
+<p align="center">MSc Data Science · Tampere University<br/>Targeting data engineering internships and junior data engineer roles</p>
+
 <p align="center">
-  <a href="https://github.com/Neupane-pradip/weather-data-pipeline">Weather Pipeline</a> ·
-  <a href="https://github.com/Neupane-pradip/fpl-analytics-elt">FPL Analytics</a> ·
-  <a href="mailto:pradip.neupane@tuni.fi">Contact</a>
+  <a href="https://github.com/Neupane-pradip/weather-data-pipeline">🌦️ Weather Pipeline</a> ·
+  <a href="https://github.com/Neupane-pradip/fpl-analytics-elt">⚽ FPL Analytics</a> ·
+  <a href="mailto:pradip.neupane@tuni.fi">✉️ Contact</a>
+</p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=flat-square"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img alt="DuckDB" src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
 </p>
 
 ---
 
-## About me
+## Building toward data engineering
 
-I'm an MSc Data Science student at Tampere University, with my first semester completed and a background in software development and mathematics. I'm targeting data engineering internships and junior data engineer roles.
+I'm a master's student in Data Science at Tampere University, with my first semester completed. My background combines software development and mathematics.
 
-I learn by building complete projects: extracting data from APIs, designing SQL tables, validating records, handling failures, and making the results useful through analytics. My repositories document both the implementation and what I learn along the way.
+I learn by building projects from source to dashboard: extracting API data, modeling SQL tables, checking data quality, handling failures, and explaining the results. My current focus is Python, SQL, ETL/ELT, and reliable scheduled collection.
 
-## Featured projects
+## Featured work
 
-### Weather Data Pipeline
-**Python · PostgreSQL · Pandas · Streamlit**
+| Project | What it demonstrates | Explore |
+|---|---|---|
+| **Weather Data Pipeline** | Multi-city ETL, PostgreSQL storage, API retries, scheduling, and a Streamlit dashboard | [Repository](https://github.com/Neupane-pradip/weather-data-pipeline) |
+| **FPL Analytics ELT** | API staging in DuckDB, dimensional modeling, SQL transformations, and data quality assertions | [Repository](https://github.com/Neupane-pradip/fpl-analytics-elt) |
+| **Titanic Survival Prediction** | Preprocessing, model comparison, evaluation, and visualizations | [Repository](https://github.com/Neupane-pradip/-Titanic-Survival-Prediction) |
 
-A scheduled ETL pipeline that collects weather for Helsinki, London, and Berlin and displays stored observations in a dashboard.
+### 🌦️ Weather Data Pipeline — from API to dashboard
 
-- **Collection:** multi-city batches scheduled every 15 minutes with Windows Task Scheduler.
-- **Data quality:** missing-temperature validation, UTC timestamps, and database constraints that prevent duplicate observations.
-- **Reliability:** bounded API retries, per-city error handling, execution logs, and a local test for recovery from a temporary server failure.
-- **Analytics:** latest saved temperatures, historical trends, and a refreshable records table in Streamlit.
+**Three cities · 15-minute local schedule · Historical temperature records**
 
-```text
-Open-Meteo API → Python extraction & validation → PostgreSQL → Streamlit
-                            ↑
-                   Windows Task Scheduler
+```mermaid
+flowchart LR
+    API["Open-Meteo API"] --> PY["Python: extract & validate"]
+    S["Windows Task Scheduler"] --> PY
+    PY --> DB[("PostgreSQL")]
+    DB --> UI["Streamlit dashboard"]
 ```
 
-[Explore the code and setup instructions →](https://github.com/Neupane-pradip/weather-data-pipeline)
+- **Useful data:** current temperatures for Helsinki, London, and Berlin become timestamped records and trend charts.
+- **Safe reruns:** a database unique constraint prevents duplicate city–time–source records.
+- **Failure handling:** bounded API retries, per-city exceptions, logs, and a test that simulates a temporary server failure.
 
-### FPL Analytics ELT
+[Read the architecture, setup, and design decisions →](https://github.com/Neupane-pradip/weather-data-pipeline#readme)
+
+### ⚽ FPL Analytics ELT — from raw data to an analytics model
+
 **Python · DuckDB · Pandas · SQL**
 
-A Fantasy Premier League data project that stages API data and transforms it into an analytics model.
+Stages Fantasy Premier League API data and builds player, team, and gameweek dimensions alongside a player-statistics fact table. SQL checks cover duplicate keys, missing values, orphaned team references, and invalid numeric ranges.
 
-- SQL transformations build player, team, and gameweek dimensions plus a player-statistics fact table.
-- Data quality checks cover uniqueness, missing values, orphaned team references, and invalid numeric ranges.
-- Separate extraction, loading, transformation, and validation modules organize the pipeline.
+[Explore the SQL model →](https://github.com/Neupane-pradip/fpl-analytics-elt/blob/main/sql/02_star_schema.sql) · [Explore the quality checks →](https://github.com/Neupane-pradip/fpl-analytics-elt/blob/main/src/data_quality.py)
 
-[Explore the data model and pipeline →](https://github.com/Neupane-pradip/fpl-analytics-elt)
+## Skills in practice
 
-### Titanic Survival Prediction
-**Python · Pandas · scikit-learn**
-
-A machine learning project covering preprocessing, model comparison, evaluation, and visualizations.
-
-[Explore the project →](https://github.com/Neupane-pradip/-Titanic-Survival-Prediction)
-
-## Skills demonstrated in my projects
-
-| Area | Tools and practices |
+| Area | What I'm applying |
 |---|---|
-| Programming | Python, SQL |
-| Data pipelines | API extraction, ETL/ELT, batch processing, scheduled collection |
-| Storage & modeling | PostgreSQL, DuckDB, SQL schemas, dimensional modeling |
-| Reliability | Validation, duplicate prevention, logging, exception handling, API retries |
-| Analytics | Pandas, Streamlit |
-| Development | Git, GitHub, virtual environments, environment-based configuration, automated testing |
+| **Python & SQL** | Reusable functions, API requests, queries, and transformations |
+| **Data engineering** | ETL/ELT, multi-city batches, scheduled collection, and dimensional modeling |
+| **Storage** | PostgreSQL, DuckDB, typed schemas, and unique constraints |
+| **Reliability** | Validation, logging, retries, exception handling, and automated testing |
+| **Analytics** | Pandas, Streamlit, and temperature history visualization |
+| **Development** | Git/GitHub, virtual environments, and environment-based configuration |
 
-## What I'm learning next
+## Next learning goals
 
 - Historical backfills and incremental loading
-- Broader automated tests and continuous integration
+- Broader test coverage and continuous integration
 - Reproducible environments and deployment
+
+I add new tools to this profile as I use them in projects and can explain the decisions behind them.
 
 ## Education
 
-**MSc in Data Science, Tampere University** — in progress · First semester completed  
-Expected graduation: December 2027
+🎓 **MSc in Data Science — Tampere University**  
+In progress · First semester completed · Expected graduation: December 2027
 
-**BSc in Computing Science and Electrical Engineering** — completed  
-Major: Software Development · Minor: Mathematics
+🎓 **BSc in Computing Science and Electrical Engineering**  
+Completed · Major: Software Development · Minor: Mathematics
 
-## Connect
+## Let's connect
 
-Interested in discussing data pipelines, project feedback, or early-career data engineering opportunities?
+I'm interested in data engineering internships, junior roles, and feedback on my projects.
 
-[Email me](mailto:pradip.neupane@tuni.fi)
+**[pradip.neupane@tuni.fi](mailto:pradip.neupane@tuni.fi)**
