@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/Neupane-pradip/weather-data-pipeline">🌦️ Weather Pipeline</a> ·
   <a href="https://github.com/Neupane-pradip/fpl-analytics-elt">⚽ FPL Analytics</a> ·
-  <a href="mailto:pradip.neupane@tuni.fi">✉️ Contact</a>
+  <a href="mailto:neupanepradip32@gmail.com">✉️ Contact</a>
 </p>
 
 <p align="center">
@@ -89,4 +89,4 @@ Completed · Major: Software Development · Minor: Mathematics
 
 I'm interested in data engineering internships, junior roles, and feedback on my projects.
 
-**[pradip.neupane@tuni.fi](mailto:pradip.neupane@tuni.fi)**
+**[neupanepradip32@gmail.com](mailto:neupanepradip32@gmail.com)**
