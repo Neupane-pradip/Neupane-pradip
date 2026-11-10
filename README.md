@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Building reliable data pipelines, analytics warehouses, and data quality workflows with Python, SQL, PostgreSQL, dbt, and Docker.
+  Building reliable data pipelines and analytics warehouses with Python, SQL, PostgreSQL, dbt, and Docker, while developing my Databricks and Power BI skills.
 </p>
 
 <p align="center">
@@ -21,6 +21,8 @@
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
   <img alt="dbt" src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white"/>
+  <img alt="Databricks: learning" src="https://img.shields.io/badge/Databricks-Learning-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
+  <img alt="Power BI: learning" src="https://img.shields.io/badge/Power_BI-Learning-F2C811?style=flat-square"/>
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 </p>
 
@@ -127,6 +129,27 @@ A multi-city weather pipeline that collects temperature data for Helsinki, Londo
 | **Analytics** | Pandas, Streamlit |
 | **Development** | Git, GitHub, environment-based configuration |
 
+## 🧱 Databricks and Power BI learning
+
+### Databricks
+
+- Earned the **Databricks Academy Accreditation — Databricks Fundamentals** in October 2026.
+- Using **Databricks Free Edition** and working through **Get started with data engineering on Databricks — Academy edition**.
+- Learning to navigate Unity Catalog catalogs, schemas, tables, and volumes.
+- Working through SQL exercises on listing files in volumes and creating tables from CSV data with `CREATE TABLE AS SELECT`.
+- Studying Delta Lake table history and versioning: how versions, timestamps, users, and operations help explain changes to a table.
+- Building my understanding of how lakehouse storage and SQL transformations connect to the ingestion and validation patterns in my Python/PostgreSQL projects.
+
+### Power BI
+
+**Current learning focus:** data visualization and business reporting, connecting analytics-ready data to reports that answer clear business questions.
+
+I am developing Power BI skills alongside my SQL and data modelling work. My existing dashboard project uses **Streamlit**; Power BI is a developing skill in my portfolio.
+
+## 🏅 Accreditation
+
+**Databricks Academy Accreditation — Databricks Fundamentals** · October 2026
+
 ## 📚 Currently developing
 
 I'm continuing to deepen my data engineering skills through progressively more realistic projects, with focus on:
@@ -135,6 +158,8 @@ I'm continuing to deepen my data engineering skills through progressively more r
 - Incremental and historical data loading patterns
 - Cloud data engineering
 - Monitoring and data observability
+- Databricks, Delta Lake, Unity Catalog, and PySpark fundamentals
+- Power BI reporting and visualization
 - Microsoft Azure and Microsoft Fabric
 
 ## 🎓 Education
